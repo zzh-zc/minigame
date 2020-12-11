@@ -1,0 +1,387 @@
+2020-12-11 10:13:40.396  INFO 9636 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication using Java 1.8.0_131 on LAPTOP-L57U8FEQ with PID 9636 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 10:13:40.401  INFO 9636 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 10:13:41.494  WARN 9636 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:13:41.624  INFO 9636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:13:41.706  INFO 9636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-11 10:13:41.722  INFO 9636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2020-12-11 10:13:41.744  INFO 9636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:13:41.746  INFO 9636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 10:13:41.765  INFO 9636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2020-12-11 10:13:41.919  WARN 9636 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:13:42.748  INFO 9636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 10:13:42.770  INFO 9636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 10:13:42.772  INFO 9636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-11 10:13:43.024  INFO 9636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 10:13:43.024  INFO 9636 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2540 ms
+2020-12-11 10:13:43.472  INFO 9636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:13:44.991  INFO 9636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-11 10:13:44.994  WARN 9636 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-11 10:13:47.151  INFO 9636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-11 10:13:47.411  INFO 9636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 10:13:47.435  INFO 9636 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 8.437 seconds (JVM running for 12.719)
+2020-12-11 10:14:10.053  INFO 9636 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-11 10:14:10.058  INFO 9636 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-11 10:14:10.058  INFO 9636 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:14:19.251  INFO 15152 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication using Java 1.8.0_131 on LAPTOP-L57U8FEQ with PID 15152 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 10:14:19.257  INFO 15152 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 10:14:20.226  WARN 15152 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:14:20.354  INFO 15152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:14:20.356  INFO 15152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-11 10:14:20.372  INFO 15152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2020-12-11 10:14:20.392  INFO 15152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:14:20.394  INFO 15152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 10:14:20.412  INFO 15152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2020-12-11 10:14:20.565  WARN 15152 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:14:21.250  INFO 15152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 10:14:21.264  INFO 15152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 10:14:21.265  INFO 15152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-11 10:14:21.393  INFO 15152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 10:14:21.393  INFO 15152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2055 ms
+2020-12-11 10:14:21.663  INFO 15152 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:14:23.291  INFO 15152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-11 10:14:25.874  INFO 15152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-11 10:14:26.044  INFO 15152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 10:14:26.056  INFO 15152 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 7.868 seconds (JVM running for 10.092)
+2020-12-11 10:45:07.471  INFO 13996 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication using Java 1.8.0_131 on LAPTOP-L57U8FEQ with PID 13996 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 10:45:07.475  INFO 13996 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 10:45:08.310  WARN 13996 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:45:08.401  INFO 13996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:45:08.402  INFO 13996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-11 10:45:08.413  INFO 13996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2020-12-11 10:45:08.428  INFO 13996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:45:08.430  INFO 13996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 10:45:08.442  INFO 13996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2020-12-11 10:45:08.549  WARN 13996 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:45:09.169  INFO 13996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 10:45:09.184  INFO 13996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 10:45:09.185  INFO 13996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-11 10:45:09.346  INFO 13996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 10:45:09.347  INFO 13996 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1808 ms
+2020-12-11 10:45:09.752  INFO 13996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:45:10.601  INFO 13996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-11 10:45:12.043  INFO 13996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-11 10:45:12.156  WARN 13996 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 1219 is already in use
+2020-12-11 10:45:12.174  INFO 13996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-11 10:45:12.630  INFO 13996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-11 10:45:12.631  INFO 13996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:45:12.643  INFO 13996 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-11 10:45:12.681  INFO 13996 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-11 10:45:12.695 ERROR 13996 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 1219 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 1219 or configure this application to listen on another port.
+
+2020-12-11 10:45:32.795  INFO 13380 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication using Java 1.8.0_131 on LAPTOP-L57U8FEQ with PID 13380 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 10:45:32.798  INFO 13380 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 10:45:33.372  WARN 13380 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:45:33.442  INFO 13380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:45:33.443  INFO 13380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-11 10:45:33.453  INFO 13380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2020-12-11 10:45:33.465  INFO 13380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:45:33.466  INFO 13380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 10:45:33.477  INFO 13380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2020-12-11 10:45:33.565  WARN 13380 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:45:33.932  INFO 13380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1101 (http)
+2020-12-11 10:45:33.940  INFO 13380 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 10:45:33.941  INFO 13380 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-11 10:45:34.035  INFO 13380 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 10:45:34.035  INFO 13380 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1184 ms
+2020-12-11 10:45:34.211  INFO 13380 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:45:34.761  INFO 13380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-11 10:45:36.061  INFO 13380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-11 10:45:36.202  INFO 13380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1101 (http) with context path ''
+2020-12-11 10:45:36.211  INFO 13380 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 4.175 seconds (JVM running for 5.754)
+2020-12-11 10:45:56.466  INFO 13380 --- [http-nio-1101-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 10:45:56.466  INFO 13380 --- [http-nio-1101-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 10:45:56.467  INFO 13380 --- [http-nio-1101-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-12-11 10:50:32.152  INFO 13380 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-11 10:50:32.159  INFO 13380 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-11 10:50:32.159  INFO 13380 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:50:42.241  INFO 13364 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication using Java 1.8.0_131 on LAPTOP-L57U8FEQ with PID 13364 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 10:50:42.244  INFO 13364 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 10:50:44.292  WARN 13364 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:50:44.351  INFO 13364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:50:44.352  INFO 13364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-11 10:50:44.360  INFO 13364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2020-12-11 10:50:44.371  INFO 13364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:50:44.372  INFO 13364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 10:50:44.381  INFO 13364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2020-12-11 10:50:44.468  WARN 13364 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:50:44.826  INFO 13364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1101 (http)
+2020-12-11 10:50:44.834  INFO 13364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 10:50:44.835  INFO 13364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-11 10:50:44.936  INFO 13364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 10:50:44.937  INFO 13364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2646 ms
+2020-12-11 10:50:45.149  INFO 13364 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:50:45.728  INFO 13364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-11 10:50:47.046  INFO 13364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-11 10:50:47.200  INFO 13364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1101 (http) with context path ''
+2020-12-11 10:50:47.211  INFO 13364 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 5.705 seconds (JVM running for 7.273)
+2020-12-11 10:51:00.145  INFO 13364 --- [http-nio-1101-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 10:51:00.145  INFO 13364 --- [http-nio-1101-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 10:51:00.146  INFO 13364 --- [http-nio-1101-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-12-11 10:53:52.488  INFO 13364 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-11 10:53:52.493  INFO 13364 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-11 10:53:52.494  INFO 13364 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:54:02.029  INFO 128 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication using Java 1.8.0_131 on LAPTOP-L57U8FEQ with PID 128 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 10:54:02.032  INFO 128 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 10:54:02.474  WARN 128 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 10:54:02.572  WARN 128 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:54:02.633  INFO 128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:54:02.633  INFO 128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-11 10:54:02.641  INFO 128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2020-12-11 10:54:02.653  INFO 128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:54:02.654  INFO 128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 10:54:02.664  INFO 128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2020-12-11 10:54:02.751  WARN 128 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:54:03.105  INFO 128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1101 (http)
+2020-12-11 10:54:03.112  INFO 128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 10:54:03.113  INFO 128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-11 10:54:03.201  INFO 128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 10:54:03.202  INFO 128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1122 ms
+2020-12-11 10:54:03.389  INFO 128 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:54:03.978  INFO 128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-11 10:54:05.340  INFO 128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-11 10:54:05.462  INFO 128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1101 (http) with context path ''
+2020-12-11 10:54:05.473  INFO 128 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 4.103 seconds (JVM running for 5.815)
+2020-12-11 10:54:10.799  INFO 128 --- [http-nio-1101-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 10:54:10.799  INFO 128 --- [http-nio-1101-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 10:54:10.800  INFO 128 --- [http-nio-1101-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-12-11 10:55:56.029  INFO 128 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-11 10:55:56.044  INFO 128 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-11 10:55:56.045  INFO 128 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:56:04.084  INFO 13048 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication using Java 1.8.0_131 on LAPTOP-L57U8FEQ with PID 13048 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 10:56:04.087  INFO 13048 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 10:56:04.550  WARN 13048 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 10:56:04.641  WARN 13048 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:56:04.717  INFO 13048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:56:04.718  INFO 13048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-11 10:56:04.728  INFO 13048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2020-12-11 10:56:04.739  INFO 13048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 10:56:04.741  INFO 13048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 10:56:04.750  INFO 13048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2020-12-11 10:56:04.844  WARN 13048 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 10:56:05.231  INFO 13048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1101 (http)
+2020-12-11 10:56:05.240  INFO 13048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 10:56:05.240  INFO 13048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-11 10:56:05.325  INFO 13048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 10:56:05.326  INFO 13048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1184 ms
+2020-12-11 10:56:05.518  INFO 13048 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:56:06.061  INFO 13048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-11 10:56:07.522  INFO 13048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-11 10:56:07.646  INFO 13048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1101 (http) with context path ''
+2020-12-11 10:56:07.655  INFO 13048 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 4.269 seconds (JVM running for 5.686)
+2020-12-11 10:56:16.149  INFO 13048 --- [http-nio-1101-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 10:56:16.149  INFO 13048 --- [http-nio-1101-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 10:56:16.150  INFO 13048 --- [http-nio-1101-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-12-11 11:10:05.812  INFO 13048 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-11 11:10:05.818  INFO 13048 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-11 11:10:05.818  INFO 13048 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:24:46.397  INFO 4572 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication on LAPTOP-L57U8FEQ with PID 4572 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 11:24:46.409  INFO 4572 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 11:24:47.329  WARN 4572 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 11:24:47.601  WARN 4572 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:24:47.753  INFO 4572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 11:24:47.758  INFO 4572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 11:24:47.798  INFO 4572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-12-11 11:24:48.151  WARN 4572 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:24:49.016  INFO 4572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 11:24:49.034  INFO 4572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 11:24:49.035  INFO 4572 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-11 11:24:49.257  INFO 4572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 11:24:49.258  INFO 4572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2774 ms
+2020-12-11 11:24:49.659  INFO 4572 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:24:51.105  INFO 4572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 11:24:51.123  INFO 4572 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 5.816 seconds (JVM running for 10.038)
+2020-12-11 11:25:04.502  INFO 4572 --- [http-nio-1219-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 11:25:04.503  INFO 4572 --- [http-nio-1219-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 11:25:04.515  INFO 4572 --- [http-nio-1219-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-12-11 11:28:53.014  INFO 4572 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:29:01.209  INFO 14172 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication on LAPTOP-L57U8FEQ with PID 14172 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 11:29:01.214  INFO 14172 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 11:29:01.940  WARN 14172 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 11:29:02.077  WARN 14172 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:29:02.148  INFO 14172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 11:29:02.151  INFO 14172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 11:29:02.175  INFO 14172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-12-11 11:29:02.297  WARN 14172 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:29:02.787  INFO 14172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 11:29:02.797  INFO 14172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 11:29:02.798  INFO 14172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-11 11:29:02.909  INFO 14172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 11:29:02.909  INFO 14172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1616 ms
+2020-12-11 11:29:03.117  INFO 14172 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:29:03.859  INFO 14172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 11:29:03.871  INFO 14172 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 3.528 seconds (JVM running for 5.368)
+2020-12-11 11:29:08.109  INFO 14172 --- [http-nio-1219-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 11:29:08.109  INFO 14172 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 11:29:08.113  INFO 14172 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-12-11 11:32:10.895  INFO 14172 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:32:28.234  INFO 15856 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication on LAPTOP-L57U8FEQ with PID 15856 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 11:32:28.238  INFO 15856 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 11:32:29.510  WARN 15856 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 11:32:29.829  WARN 15856 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:32:29.934  INFO 15856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 11:32:29.938  INFO 15856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 11:32:29.971  INFO 15856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-12-11 11:32:30.248  WARN 15856 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:32:31.396  INFO 15856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 11:32:31.418  INFO 15856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 11:32:31.419  INFO 15856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-11 11:32:31.676  INFO 15856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 11:32:31.677  INFO 15856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3320 ms
+2020-12-11 11:32:32.090  INFO 15856 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:32:33.705  INFO 15856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 11:32:33.718  INFO 15856 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 6.457 seconds (JVM running for 8.358)
+2020-12-11 11:32:35.883  INFO 15856 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:32:49.955  INFO 11596 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication on LAPTOP-L57U8FEQ with PID 11596 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 11:32:49.966  INFO 11596 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 11:32:52.425  WARN 11596 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 11:32:52.645  WARN 11596 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:32:52.767  INFO 11596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 11:32:52.772  INFO 11596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 11:32:52.804  INFO 11596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2020-12-11 11:32:53.003  WARN 11596 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:32:53.722  INFO 11596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 11:32:53.736  INFO 11596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 11:32:53.737  INFO 11596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-11 11:32:53.908  INFO 11596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 11:32:53.908  INFO 11596 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3625 ms
+2020-12-11 11:32:54.223  INFO 11596 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:32:55.109  INFO 11596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 11:32:55.124  INFO 11596 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 6.493 seconds (JVM running for 9.07)
+2020-12-11 11:33:02.484  INFO 11596 --- [http-nio-1219-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 11:33:02.485  INFO 11596 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 11:33:02.490  INFO 11596 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-11 11:35:34.674  INFO 11596 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:35:46.390  INFO 3464 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication on LAPTOP-L57U8FEQ with PID 3464 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 11:35:46.394  INFO 3464 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 11:35:47.039  WARN 3464 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 11:35:47.152  WARN 3464 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:35:47.212  INFO 3464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 11:35:47.214  INFO 3464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 11:35:47.234  INFO 3464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-12-11 11:35:47.351  WARN 3464 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:35:47.751  INFO 3464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 11:35:47.761  INFO 3464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 11:35:47.761  INFO 3464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-11 11:35:47.866  INFO 3464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 11:35:47.866  INFO 3464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1406 ms
+2020-12-11 11:35:48.089  INFO 3464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:35:48.799  INFO 3464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 11:35:48.809  INFO 3464 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 3.395 seconds (JVM running for 5.465)
+2020-12-11 11:35:51.234  INFO 3464 --- [http-nio-1219-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 11:35:51.234  INFO 3464 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 11:35:51.237  INFO 3464 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-12-11 11:37:04.822  INFO 3464 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:37:09.013  INFO 564 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication on LAPTOP-L57U8FEQ with PID 564 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 11:37:09.018  INFO 564 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 11:37:09.527  WARN 564 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 11:37:09.622  WARN 564 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:37:09.677  INFO 564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 11:37:09.679  INFO 564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 11:37:09.695  INFO 564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-12-11 11:37:09.779  WARN 564 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:37:10.140  INFO 564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 11:37:10.149  INFO 564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 11:37:10.149  INFO 564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-11 11:37:10.243  INFO 564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 11:37:10.243  INFO 564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1172 ms
+2020-12-11 11:37:10.424  INFO 564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:37:11.038  INFO 564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 11:37:11.049  INFO 564 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 2.714 seconds (JVM running for 4.26)
+2020-12-11 11:37:18.725  INFO 564 --- [http-nio-1219-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 11:37:18.726  INFO 564 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 11:37:18.730  INFO 564 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-12-11 11:38:10.763  INFO 564 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:38:14.948  INFO 16632 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication on LAPTOP-L57U8FEQ with PID 16632 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 11:38:14.950  INFO 16632 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 11:38:15.538  WARN 16632 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 11:38:15.633  WARN 16632 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:38:15.690  INFO 16632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 11:38:15.693  INFO 16632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 11:38:15.711  INFO 16632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-12-11 11:38:15.804  WARN 16632 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:38:16.159  INFO 16632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 11:38:16.166  INFO 16632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 11:38:16.167  INFO 16632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-11 11:38:16.254  INFO 16632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 11:38:16.254  INFO 16632 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1261 ms
+2020-12-11 11:38:16.471  INFO 16632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:38:17.169  INFO 16632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 11:38:17.185  INFO 16632 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 2.888 seconds (JVM running for 4.39)
+2020-12-11 11:38:20.236  INFO 16632 --- [http-nio-1219-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 11:38:20.236  INFO 16632 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 11:38:20.240  INFO 16632 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-12-11 11:38:39.776  INFO 16632 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:38:43.937  INFO 11824 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication on LAPTOP-L57U8FEQ with PID 11824 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 11:38:43.940  INFO 11824 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 11:38:44.418  WARN 11824 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 11:38:44.511  WARN 11824 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:38:44.564  INFO 11824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 11:38:44.566  INFO 11824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 11:38:44.582  INFO 11824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-12-11 11:38:44.662  WARN 11824 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:38:45.006  INFO 11824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 11:38:45.016  INFO 11824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 11:38:45.016  INFO 11824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-11 11:38:45.109  INFO 11824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 11:38:45.110  INFO 11824 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1127 ms
+2020-12-11 11:38:45.282  INFO 11824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:38:45.886  INFO 11824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 11:38:45.895  INFO 11824 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 2.567 seconds (JVM running for 4.054)
+2020-12-11 11:38:48.420  INFO 11824 --- [http-nio-1219-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 11:38:48.420  INFO 11824 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 11:38:48.425  INFO 11824 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-11 11:40:08.497  INFO 11824 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:40:12.508  INFO 10476 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication on LAPTOP-L57U8FEQ with PID 10476 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 11:40:12.512  INFO 10476 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 11:40:13.281  WARN 10476 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 11:40:13.430  WARN 10476 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:40:13.513  INFO 10476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 11:40:13.516  INFO 10476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 11:40:13.541  INFO 10476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-12-11 11:40:13.684  WARN 10476 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:40:14.315  INFO 10476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 11:40:14.328  INFO 10476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 11:40:14.328  INFO 10476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-11 11:40:14.541  INFO 10476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 11:40:14.542  INFO 10476 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1958 ms
+2020-12-11 11:40:14.884  INFO 10476 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:40:16.198  INFO 10476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 11:40:16.219  INFO 10476 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 4.377 seconds (JVM running for 5.977)
+2020-12-11 11:40:16.928  INFO 10476 --- [http-nio-1219-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 11:40:16.929  INFO 10476 --- [http-nio-1219-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 11:40:16.939  INFO 10476 --- [http-nio-1219-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-12-11 11:42:15.384  INFO 10476 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:42:18.583  INFO 10188 --- [main] com.f4.minigame.MinigameApplication      : Starting MinigameApplication on LAPTOP-L57U8FEQ with PID 10188 (D:\zzh\minigame\target\classes started by 86157 in D:\zzh\minigame)
+2020-12-11 11:42:18.586  INFO 10188 --- [main] com.f4.minigame.MinigameApplication      : No active profile set, falling back to default profiles: default
+2020-12-11 11:42:19.342  WARN 10188 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame.mapper]' package. Please check your configuration.
+2020-12-11 11:42:19.501  WARN 10188 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:42:19.593  INFO 10188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 11:42:19.596  INFO 10188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-11 11:42:19.621  INFO 10188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-12-11 11:42:19.766  WARN 10188 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.f4.minigame]' package. Please check your configuration.
+2020-12-11 11:42:20.228  INFO 10188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1219 (http)
+2020-12-11 11:42:20.237  INFO 10188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-11 11:42:20.237  INFO 10188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-11 11:42:20.366  INFO 10188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-11 11:42:20.366  INFO 10188 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1722 ms
+2020-12-11 11:42:20.587  INFO 10188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 11:42:21.484  INFO 10188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1219 (http) with context path ''
+2020-12-11 11:42:21.500  INFO 10188 --- [main] com.f4.minigame.MinigameApplication      : Started MinigameApplication in 3.595 seconds (JVM running for 5.322)
+2020-12-11 11:42:24.092  INFO 10188 --- [http-nio-1219-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 11:42:24.092  INFO 10188 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-11 11:42:24.097  INFO 10188 --- [http-nio-1219-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-11 14:13:22.080  INFO 10188 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
